@@ -1,0 +1,68 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://zenodo.org/record/4252783/files/seedconsumption.csv",
+    "dcterms:bibliographicCitation" : "Pocock, Michael J.O., Schmucki, Reto, & Bohan, David A. (2020). Inferring quantitative species interactions of seeds and seed-feeding carabid beetles from ecological survey data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4252783",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName" : "isEatenBy",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002471",
+    "sourceBodyPartName" : "seed",
+    "sourceBodyPartId" : "http://purl.obolibrary.org/obo/PO_0009010",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "seed.species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "seed.genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "seed.family",
+        "datatype" : "string"
+      }, {
+        "name" : "reported.seed.mass",
+        "titles" : "reported.seed.mass",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "carabid.species",
+        "datatype" : "string"
+      }, {
+        "name" : "carabid.mass",
+        "titles" : "carabid.mass",
+        "datatype" : "string"
+      }, {
+        "name" : "logCT50",
+        "titles" : "logCT50",
+        "datatype" : "string"
+      }, {
+        "name" : "daily.consumption",
+        "titles" : "daily.consumption",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "source",
+        "datatype" : "string"
+      }, {
+        "name" : "reference.number.Honek2003",
+        "titles" : "reference.number.Honek2003",
+        "datatype" : "string"
+      }, {
+        "name" : "number.of.seeds.Honek2003",
+        "titles" : "number.of.seeds.Honek2003",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

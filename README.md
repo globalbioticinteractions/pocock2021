@@ -1,0 +1,5 @@
+[![Review](https://github.com/globalbioticinteractions/pocock2021/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/pocock2021/actions) [![Build Status](https://travis-ci.com/globalbioticinteractions/pocock2021.svg)](https://travis-ci.com/globalbioticinteractions/pocock2021) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/pocock2021&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/pocock2021)
+
+Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
+
+Pocock, Michael J.O., Schmucki, Reto, & Bohan, David A. (2020). Inferring quantitative species interactions of seeds and seed-feeding carabid beetles from ecological survey data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4252783
